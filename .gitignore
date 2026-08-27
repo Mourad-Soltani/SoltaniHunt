@@ -1,6 +1,21 @@
-# Mourad.Soltani
+# SoltaniHunt — Mourad.Soltani
 .venv/
+venv/
 __pycache__/
-*.pyc
-data/*.db
+*.py[cod]
+*.egg-info/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+data/*.db
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+dist/
+build/
+.idea/
+.vscode/
