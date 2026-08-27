@@ -7,7 +7,9 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
-DB_PATH = Path(__file__).resolve().parent.parent / "data" / "soltanihunt.db"
+import os
+_base = Path("/tmp") if os.environ.get("VERCEL") else Path(__file__).resolve().parent.parent / "data"
+DB_PATH = _base / "soltanihunt.db"
 AUTHOR = "Mourad.Soltani"
 
 
