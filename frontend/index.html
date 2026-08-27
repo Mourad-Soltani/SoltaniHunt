@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SoltaniHunt — Mourad.Soltani</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>SoltaniHunt</h1>
+      <p class="tag">Local-first job search · signed Mourad.Soltani</p>
+    </div>
+    <span id="health">checking…</span>
+  </header>
+  <main>
+    <section>
+      <h2>Profile</h2>
+      <form id="profile-form">
+        <label>Name <input name="name" required /></label>
+        <label>Headline <input name="headline" /></label>
+        <label>Skills <input name="skills" placeholder="Python, FastAPI, product" /></label>
+        <label>Summary <textarea name="summary" rows="4"></textarea></label>
+        <button type="submit">Save profile</button>
+      </form>
+    </section>
+    <section>
+      <h2>Add posting</h2>
+      <form id="job-form">
+        <label>Title <input name="title" required /></label>
+        <label>Company <input name="company" required /></label>
+        <label>Location <input name="location" /></label>
+        <label>URL <input name="url" /></label>
+        <label>Description <textarea name="description" rows="7" required minlength="20"></textarea></label>
+        <button type="submit">Score &amp; tailor</button>
+      </form>
+    </section>
+    <section>
+      <h2>Pipeline</h2>
+      <div id="jobs"></div>
+    </section>
+    <section id="detail" hidden>
+      <h2>Pack</h2>
+      <pre id="pack"></pre>
+    </section>
+  </main>
+  <footer>SoltaniHunt v1.0.0 — Mourad.Soltani</footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>
