@@ -9,6 +9,10 @@
 
 **Repo:** [github.com/Mourad-Soltani/SoltaniHunt](https://github.com/Mourad-Soltani/SoltaniHunt)
 
+**Live demo:** [soltanihunt.vercel.app](https://soltanihunt.vercel.app) · [Health](https://soltanihunt.vercel.app/api/health)
+
+> Listed for sale (asset: repo transfer + IP/brand assignment). See [SALE.md](SALE.md). Pre-revenue MVP — SQLite on the demo host is ephemeral.
+
 ---
 
 ## Why it exists

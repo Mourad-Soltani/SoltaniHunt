@@ -2,7 +2,9 @@
 
 **Author:** Mourad.Soltani  
 **Repository:** https://github.com/Mourad-Soltani/SoltaniHunt  
-**Status:** Pre-revenue MVP · tests green · public MIT source
+**Live demo:** https://soltanihunt.vercel.app  
+**Health:** https://soltanihunt.vercel.app/api/health  
+**Status:** Pre-revenue MVP · tests green · public MIT source · listed on SideProjectors
 
 ## What you are buying (typical asset deal)
 
@@ -16,6 +18,9 @@
 For a **paid exclusive acquisition**, seller executes a one-page IP assignment of the SoltaniHunt name and codebase after cleared payment.
 
 ## Technical diligence (run yourself)
+
+1. Open live demo: https://soltanihunt.vercel.app
+2. Or run locally:
 
 ```bash
 pip install -r requirements.txt
